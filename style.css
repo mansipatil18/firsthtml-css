@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .second {
+     background-color: rgba(0, 0, 0, 0.329);
+     padding-top: 15px;
+     height: 50px;
+     width: 100%;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     display: inline-block;
+ 
+ }
+ 
+ #search{
+     size: 20px;
+     margin-left: 92%;
+     margin-right: 20px;
+     
+ }
+
+ #search:hover{
+    cursor: pointer;
+    
+ }
+ 
+ 
+ #home{
+   
+     margin-right: 20px;
+     padding-left: 10px;
+     text-decoration: none;
+     
+ }
+
+ #contactus{
+     margin-right: 20px;
+     padding-left: 10px;
+     text-decoration: none;
+
+ }
+ 
+ #aboutus{
+     margin-right: 20px;
+     padding-left: 10px;
+     text-decoration: none;
+
+ }
+ 
+
+ #help{
+     margin-right: 20px;
+     padding-left: 10px;
+     text-decoration: none;
+
+ }
+ 
+ 
+ #loginsignup{
+     margin-right: 20px;
+     padding-left: 10px;
+     text-decoration: none;
+
+ }
+
+ main{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('burger.jpg');
+    background-size: cover;
+ }
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    
+    padding: 40px;
+    border-radius: 40px;
+    margin-left: 60px;
+    
+}
+.main button{
+    width: 200px;
+    background-color: rgb(162, 51, 10);
+    height: 60px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+
+    margin-left: 40%;
+    margin-top: 180px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+ .card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+ }
+
+ .card h2{
+    font-size: 3rem;
+    font-family: cursive;
+    color: yellowgreen;
+ }
+.card p{
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+ .card img{
+    width: 0%;
+    height: 70%;
+    border-radius: 10%;
+    box-shadow: 3px;
+ }
